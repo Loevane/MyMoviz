@@ -10,7 +10,7 @@ var options = {
     useUnifiedTopology : true
    }
 
-mongoose.connect(`mongodb+srv://${user}:${password}@cluster0-nde5z.mongodb.net/movies?retryWrites=true&w=majority`,
+mongoose.connect(`mongodb+srv://Loevane:xG4JYsDWPGeu3QR7@cluster0.nde5z.mongodb.net/?retryWrites=true&w=majority`,
     options,    
     function(error) {
         if (error){
@@ -20,3 +20,4 @@ mongoose.connect(`mongodb+srv://${user}:${password}@cluster0-nde5z.mongodb.net/m
         }
     }
 );
+
